@@ -1,0 +1,22 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "bridge:seared_brick"
+		},
+		"components": {
+			"minecraft:unit_cube": {},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "seared_brick",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:destroy_time": 1,
+			"minecraft:creative_category": {
+				"category": "construction"
+			},
+			"minecraft:explosion_resistance": 1
+		}
+	}
+}

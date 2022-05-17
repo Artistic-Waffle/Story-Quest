@@ -1,7 +1,7 @@
 {
 	"type": "minecraftBedrock",
 	"name": "Story-Quest",
-	"namespace": "bridge",
+	"namespace": "sq",
 	"authors": [
 		"Artistic-Waffles"
 	],
