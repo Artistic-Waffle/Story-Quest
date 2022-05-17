@@ -1,0 +1,78 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"Artistic-Waffles"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.2.9"
+			],
+			"dash": [
+				"0.8.11"
+			]
+		}
+	},
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"min_engine_version": [
+			1,
+			18,
+			0
+		],
+		"uuid": "66272503-cdb4-4064-b7a8-2a40c4018251",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "ac46e2e1-0fdb-4331-a8f4-74d331cb21a6",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "javascript",
+			"uuid": "0d003268-170f-468a-b161-cf0cc9eb193a",
+			"entry": "scripts/main.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "8f897d92-2f9c-4ca0-b82e-a1edec1255a8",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"uuid": "b26a4d4c-afdf-4690-88f8-931846312678",
+			"version": [
+				0,
+				1,
+				0
+			]
+		},
+		{
+			"uuid": "6f4b6893-1bb6-42fd-b458-7fa3d0c89616",
+			"version": [
+				0,
+				1,
+				0
+			]
+		}
+	]
+}
