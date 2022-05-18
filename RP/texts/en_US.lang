@@ -1,3 +1,7 @@
 pack.name=Story-Quest RP
 pack.description=
 tile.bridge:seared_brick.name=Seared Brick
+tile.bridge:seared_brick_cracked.name=Seared Brick Cracked
+tile.bridge:seared_brick_fancy.name=Seared Brick Fancy
+item.sq:test=test
+tile.sq:witch_cauldron.name=Witch Cauldron

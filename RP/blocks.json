@@ -3,5 +3,8 @@
 		1,
 		1,
 		0
-	]
+	],
+	"sq:witch_cauldron": {
+		"sound": "stone"
+	}
 }

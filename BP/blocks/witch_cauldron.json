@@ -1,0 +1,45 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "sq:witch_cauldron",
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:geometry": "geometry.witch_cauldron",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "sq_witch_cauldron",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-1,
+					0,
+					-1
+				],
+				"size": [
+					2,
+					2,
+					2
+				]
+			},
+			"minecraft:entity_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					8,
+					16,
+					8
+				]
+			},
+			"minecraft:creative_category": {
+				"category": "construction"
+			}
+		}
+	}
+}

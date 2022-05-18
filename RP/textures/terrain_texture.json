@@ -6,6 +6,15 @@
 	"texture_data": {
 		"seared_brick": {
 			"textures": "textures/blocks/seared_brick"
+		},
+		"bridge_seared_brick_cracked": {
+			"textures": "textures/blocks/seared_brick_cracked"
+		},
+		"bridge_seared_brick_fancy": {
+			"textures": "textures/blocks/seared_brick_fancy"
+		},
+		"sq_witch_cauldron": {
+			"textures": "textures/blocks/witch_cauldron"
 		}
 	}
 }
