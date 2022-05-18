@@ -1,0 +1,22 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "sq:adamantite_block"
+		},
+		"components": {
+			"minecraft:destroy_time": 26,
+			"minecraft:explosion_resistance": 20,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "adamantite_block",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:creative_category": {
+				"category": "construction"
+			}
+		},
+		"events": {}
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "sq:electrum_block"
+		},
+		"components": {
+			"minecraft:destroy_time": 12,
+			"minecraft:explosion_resistance": 6,
+			"minecraft:creative_category": {
+				"category": "construction"
+			}
+		},
+		"events": {}
+	}
+}

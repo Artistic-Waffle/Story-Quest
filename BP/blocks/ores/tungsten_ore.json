@@ -1,0 +1,16 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "sq:tungsten_ore"
+		},
+		"components": {
+			"minecraft:destroy_time": 18,
+			"minecraft:explosion_resistance": 16,
+			"minecraft:creative_category": {
+				"category": "construction"
+			}
+		},
+		"events": {}
+	}
+}

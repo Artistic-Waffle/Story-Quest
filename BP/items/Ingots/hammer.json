@@ -1,0 +1,22 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "cc:hammer",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "hammer"
+			},
+			"minecraft:max_stack_size": 64,
+			"minecraft:should_despawn": true,
+			"minecraft:hand_equipped": false,
+			"minecraft:display_name": {
+				"value": "Hammer"
+			}
+		},
+		"events": {}
+	}
+}

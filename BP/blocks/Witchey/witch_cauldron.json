@@ -9,7 +9,7 @@
 			"minecraft:geometry": "geometry.witch_cauldron",
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "sq_witch_cauldron",
+					"texture": "witch_cauldron",
 					"render_method": "alpha_test"
 				}
 			},

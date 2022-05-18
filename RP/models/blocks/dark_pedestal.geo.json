@@ -1,0 +1,52 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.dark_pedestal",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "footing",
+					"parent": "root",
+					"pivot": [-1, 0, 1],
+					"cubes": [
+						{"origin": [4, 0, -6], "size": [2, 1, 2], "uv": [0, 23]},
+						{"origin": [-6, 0, -6], "size": [2, 1, 2], "uv": [0, 20]},
+						{"origin": [-6, 0, 4], "size": [2, 1, 2], "uv": [0, 3]},
+						{"origin": [4, 0, 4], "size": [2, 1, 2], "uv": [0, 0]},
+						{"origin": [-5, 1, -5], "size": [10, 1, 10], "uv": [0, 20]}
+					]
+				},
+				{
+					"name": "base",
+					"parent": "root",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-4, 2, -4], "size": [8, 12, 8], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "top",
+					"parent": "root",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-5, 14, -5], "size": [1, 2, 10], "uv": [30, 10]},
+						{"origin": [4, 14, -5], "size": [1, 2, 10], "uv": [30, 30]},
+						{"origin": [-4, 14, -5], "size": [8, 2, 1], "uv": [24, 3]},
+						{"origin": [-4, 14, 4], "size": [8, 2, 1], "uv": [24, 0]}
+					]
+				}
+			]
+		}
+	]
+}

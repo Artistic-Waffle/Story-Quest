@@ -5,16 +5,124 @@
 	"texture_name": "atlas.terrain",
 	"texture_data": {
 		"seared_brick": {
-			"textures": "textures/blocks/seared_brick"
+			"textures": "textures/blocks/tinkers/seared_brick"
 		},
 		"bridge_seared_brick_cracked": {
-			"textures": "textures/blocks/seared_brick_cracked"
+			"textures": "textures/blocks/tinkers/seared_brick_cracked"
 		},
 		"bridge_seared_brick_fancy": {
-			"textures": "textures/blocks/seared_brick_fancy"
+			"textures": "textures/blocks/tinkers/seared_brick_fancy"
 		},
-		"sq_witch_cauldron": {
-			"textures": "textures/blocks/witch_cauldron"
+		"adamantite_block": {
+			"textures": "textures/blocks/ores/adamantite_block"
+		},
+		"adamantite_ore": {
+			"textures": "textures/blocks/ores/adamantite_ore"
+		},
+		"aluminum_block": {
+			"textures": "textures/blocks/ores/aluminum_block"
+		},
+		"aluminum_ore": {
+			"textures": "textures/blocks/ores/aluminum_ore"
+		},
+		"black_steel_block": {
+			"textures": "textures/blocks/ores/black_steel_block"
+		},
+		"brass_block": {
+			"textures": "textures/blocks/ores/brass_block"
+		},
+		"bronze_block": {
+			"textures": "textures/blocks/ores/bronze_block"
+		},
+		"cobalt_block": {
+			"textures": "textures/blocks/ores/cobalt_block"
+		},
+		"cobalt_ore": {
+			"textures": "textures/blocks/ores/cobalt_ore"
+		},
+		"electrum_block": {
+			"textures": "textures/blocks/ores/electrum_block"
+		},
+		"electrum_ore": {
+			"textures": "textures/blocks/ores/electrum_ore"
+		},
+		"lead_block": {
+			"textures": "textures/blocks/ores/lead_block"
+		},
+		"lead_ore": {
+			"textures": "textures/blocks/ores/lead_ore"
+		},
+		"mythril_block": {
+			"textures": "textures/blocks/ores/mythril_block"
+		},
+		"mythril_ore": {
+			"textures": "textures/blocks/ores/mythril_ore"
+		},
+		"nickel_block": {
+			"textures": "textures/blocks/ores/nickel_block"
+		},
+		"nickel_ore": {
+			"textures": "textures/blocks/ores/nickel_ore"
+		},
+		"platinum_block": {
+			"textures": "textures/blocks/ores/platinum_block"
+		},
+		"platinum_ore": {
+			"textures": "textures/blocks/ores/platinum_ore"
+		},
+		"silver_block": {
+			"textures": "textures/blocks/ores/silver_block"
+		},
+		"silver_ore": {
+			"textures": "textures/blocks/ores/silver_ore"
+		},
+		"steel_block": {
+			"textures": "textures/blocks/ores/steel_block"
+		},
+		"tin_block": {
+			"textures": "textures/blocks/ores/tin_block"
+		},
+		"tin_ore": {
+			"textures": "textures/blocks/ores/tin_ore"
+		},
+		"titanium_block": {
+			"textures": "textures/blocks/ores/titanium_block"
+		},
+		"titanium_ore": {
+			"textures": "textures/blocks/ores/titanium_ore"
+		},
+		"tungsten_block": {
+			"textures": "textures/blocks/ores/tungsten_block"
+		},
+		"tungsten_ore": {
+			"textures": "textures/blocks/ores/tungsten_ore"
+		},
+		"uranium_block": {
+			"textures": "textures/blocks/ores/uranium_block"
+		},
+		"uranium_ore": {
+			"textures": "textures/blocks/ores/uranium_ore"
+		},
+		"zinc_block": {
+			"textures": "textures/blocks/ores/zinc_block"
+		},
+		"zinc_ore": {
+			"textures": "textures/blocks/ores/zinc_ore"
+		},
+		"crushing_table": {
+			"textures": "textures/blocks/machinery/crushing_table"
+		},
+		"liquid_tank": {
+			"textures": "textures/blocks/machinery/liquid_tank"
+		},
+		"testing_block": {
+			"textures": "textures/blocks/testing_block"
+		},
+		"dark_pedestal": {
+			"textures": "textures/blocks/witchery/dark_pedestal"
+		},
+		"witch_cauldron": {
+			"textures": "textures/blocks/witchery/witch_cauldron"
 		}
 	}
 }

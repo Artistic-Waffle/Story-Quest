@@ -1,0 +1,46 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "cc:liquid_tank"
+		},
+		"components": {
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "liquid_tank",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:geometry": "geometry.liquid_tank",
+			"minecraft:entity_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"minecraft:destroy_time": 5,
+			"minecraft:friction": 0.6,
+			"minecraft:block_light_absorption": 0.3
+		},
+		"events": {}
+	}
+}

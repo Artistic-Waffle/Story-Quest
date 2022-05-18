@@ -4,8 +4,143 @@
 		1,
 		0
 	],
-	"sq:witch_cauldron": {
+	"witch_cauldron": {
 		"sound": "stone",
-		"textures": "sq_witch_cauldron"
+		"textures": "witch_cauldron"
+	},
+	"adamantite_ore": {
+		"sound": "stone",
+		"textures": "adamantite_ore"
+	},
+	"adamantite_block": {
+		"sound": "metal",
+		"textures": "adamantite_block"
+	},
+	"sq:aluminum_ore": {
+		"sound": "stone",
+		"textures": "aluminum_ore"
+	},
+	"sq:aluminum_block": {
+		"sound": "metal",
+		"textures": "aluminum_block"
+	},
+	"sq:black_steel_block": {
+		"sound": "metal",
+		"textures": "black_steel_block"
+	},
+	"sq:brass_block": {
+		"sound": "metal",
+		"textures": "brass_block"
+	},
+	"sq:bronze_block": {
+		"textures": "bronze_block",
+		"sound": "metal"
+	},
+	"sq:cobalt_ore": {
+		"sound": "stone",
+		"textures": "cobalt_ore"
+	},
+	"sq:cobalt_block": {
+		"sound": "metal",
+		"textures": "cobalt_block"
+	},
+	"sq:electrum_ore": {
+		"sound": "stone",
+		"textures": "electrum_ore"
+	},
+	"sq:electrum_block": {
+		"sound": "metal",
+		"textures": "electrum_block"
+	},
+	"sq:lead_ore": {
+		"textures": "lead_ore",
+		"sound": "stone"
+	},
+	"sq:lead_block": {
+		"textures": "lead_block",
+		"sound": "metal"
+	},
+	"sq:mythril_ore": {
+		"textures": "mythril_ore",
+		"sound": "stone"
+	},
+	"sq:mythril_block": {
+		"textures": "mythril_block",
+		"sound": "metal"
+	},
+	"sq:nickel_ore": {
+		"textures": "nickel_ore",
+		"sound": "stone"
+	},
+	"sq:nickel_block": {
+		"textures": "nickel_block",
+		"sound": "metal"
+	},
+	"sq:platinum_ore": {
+		"textures": "platinum_ore",
+		"sound": "stone"
+	},
+	"sq:platinum_block": {
+		"textures": "platinum_block",
+		"sound": "metal"
+	},
+	"sq:silver_ore": {
+		"textures": "silver_ore",
+		"sound": "stone"
+	},
+	"sq:silver_block": {
+		"textures": "silver_block",
+		"sound": "metal"
+	},
+	"sq:steel_block": {
+		"textures": "steel_block",
+		"sound": "metal"
+	},
+	"sq:tin_ore": {
+		"textures": "tin_ore",
+		"sound": "metal"
+	},
+	"sq:tin_block": {
+		"textures": "tin_block",
+		"sound": "stone"
+	},
+	"sq:titanium_ore": {
+		"textures": "titanium_ore",
+		"sound": "metal"
+	},
+	"sq:titanium_block": {
+		"textures": "titanium_block",
+		"sound": "stone"
+	},
+	"sq:tungsten_ore": {
+		"textures": "tungsten_ore",
+		"sound": "metal"
+	},
+	"sq:tungsten_block": {
+		"textures": "tungsten_block",
+		"sound": "stone"
+	},
+	"sq:uranium_ore": {
+		"textures": "uranium_ore",
+		"sound": "metal"
+	},
+	"sq:uranium_block": {
+		"textures": "uranium_block",
+		"sound": "stone"
+	},
+	"sq:zinc_ore": {
+		"textures": "zinc_ore",
+		"sound": "metal"
+	},
+	"sq:zinc_block": {
+		"textures": "zinc_block",
+		"sound": "stone"
+	},
+	"sq:testing_block": {
+		"textures": "testing_block"
+	},
+	"sq:dark_pedestal": {
+		"textures": "dark_pedestal",
+		"sound": "anvil"
 	}
 }

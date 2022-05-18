@@ -1,0 +1,46 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "cc:crushing_table"
+		},
+		"components": {
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "crushing_table",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:geometry": "geometry.crushing_table",
+			"minecraft:entity_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"minecraft:destroy_time": 5,
+			"minecraft:friction": 0.6,
+			"minecraft:block_light_absorption": 0.3
+		},
+		"events": {}
+	}
+}

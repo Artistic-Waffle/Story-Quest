@@ -2,8 +2,81 @@
 	"resource_pack_name": "Story-Quest",
 	"texture_name": "atlas.items",
 	"texture_data": {
-		"sq_test": {
-			"textures": "textures/items/test"
+		"adamantite_ingot": {
+			"textures": "textures/items/ingot/adamantite_ingot"
+		},
+		"black_steel_ingot": {
+			"textures": "textures/items/ingot/black_steel_ingot"
+		},
+		"brass_ingot": {
+			"textures": "textures/items/ingot/brass_ingot"
+		},
+		"cobalt_ingot": {
+			"textures": "textures/items/ingot/cobalt_ingot"
+		},
+		
+		"electrum_ingot": {
+			"textures": "textures/items/ingot/electrum_ingot"
+		},
+		"lead_ingot": {
+			"textures": "textures/items/ingot/lead_ingot"
+		},
+		"mithril_ingot": {
+			"textures": "textures/items/ingot/mithril_ingot"
+		},
+		"nickel_ingot": {
+			"textures": "textures/items/ingot/nickel_ingot"
+		},
+		"platinum_ingot": {
+			"textures": "textures/items/ingot/platinum_ingot"
+		},
+		"silver_ingot": {
+			"textures": "textures/items/ingot/silver_ingot"
+		},
+		"steel_ingot": {
+			"textures": "textures/items/ingot/steel_ingot"
+		},
+		"tin_ingot": {
+			"textures": "textures/items/ingot/tin_ingot"
+		},
+		"titanium_ingot": {
+			"textures": "textures/items/ingot/titanium_ingot"
+		},
+		"tungsten_ingot": {
+			"textures": "textures/items/ingot/tungsten_ingot"
+		},
+		"uranium_ingot": {
+			"textures": "textures/items/ingot/uranium_ingot"
+		},
+		"zinc_ingot": {
+			"textures": "textures/items/ingot/zinc_ingot"
+		},
+		"aluminum_ingot": {
+			"textures": "textures/items/ingot/aluminum_ingot"
+		},
+		"bronze_ingot": {
+			"textures": "textures/items/ingot/bronze_ingot"
+		},
+		"aluminum_plate": {
+			"textures": "textures/items/plate/aluminium_plate"
+		},
+		"brass_plate": {
+			"textures": "textures/items/plate/brass_plate"
+		},
+		"bronze_plate": {
+			"textures": "textures/items/plate/bronze_plate"
+		},
+		"copper_plate": {
+			"textures": "textures/items/plate/copper_plate"
+		},
+		"lead_plate": {
+			"textures": "textures/items/plate/lead_plate"
+		},
+		"tin_plate": {
+			"textures": "textures/items/plate/tin_plate"
+		},
+		"tungsten_plate": {
+			"textures": "textures/items/plate/tungsten_plate"
 		}
 	}
 }

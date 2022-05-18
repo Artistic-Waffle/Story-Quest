@@ -1,0 +1,16 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "sq:nickel_ore"
+		},
+		"components": {
+			"minecraft:destroy_time": 4,
+			"minecraft:explosion_resistance": 3,
+			"minecraft:creative_category": {
+				"category": "construction"
+			}
+		},
+		"events": {}
+	}
+}

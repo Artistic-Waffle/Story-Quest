@@ -1,0 +1,16 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "sq:steel_block"
+		},
+		"components": {
+			"minecraft:destroy_time": 16,
+			"minecraft:explosion_resistance": 20,
+			"minecraft:creative_category": {
+				"category": "construction"
+			}
+		},
+		"events": {}
+	}
+}

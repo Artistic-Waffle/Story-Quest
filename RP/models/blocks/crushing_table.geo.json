@@ -1,0 +1,62 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.crushing_table",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "base",
+					"parent": "root",
+					"pivot": [-8, 0, 0],
+					"cubes": [
+						{"origin": [-7, 0, -7], "size": [7, 3, 14], "uv": [0, 45]}
+					]
+				},
+				{
+					"name": "base2",
+					"parent": "root",
+					"pivot": [8, 0, 0],
+					"cubes": [
+						{"origin": [0, 0, -7], "size": [7, 3, 14], "uv": [34, 34]}
+					]
+				},
+				{
+					"name": "stem",
+					"parent": "root",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-6, 3, -6], "size": [12, 1, 12], "uv": [0, 32]},
+						{"origin": [-5, 4, -5], "size": [10, 8, 10], "uv": [42, 51]}
+					]
+				},
+				{
+					"name": "stem2",
+					"parent": "root",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-6, 12, -6], "size": [12, 1, 12], "uv": [0, 19]}
+					]
+				},
+				{
+					"name": "top",
+					"parent": "root",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-8, 13, -8], "size": [16, 3, 16], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}

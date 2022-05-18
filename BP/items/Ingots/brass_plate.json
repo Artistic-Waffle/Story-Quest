@@ -1,0 +1,22 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "cc:brass_plate",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "brass_plate"
+			},
+			"minecraft:max_stack_size": 64,
+			"minecraft:should_despawn": true,
+			"minecraft:hand_equipped": false,
+			"minecraft:display_name": {
+				"value": "Brass Plate"
+			}
+		},
+		"events": {}
+	}
+}

@@ -1,0 +1,46 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "cc:dark_pedestal"
+		},
+		"components": {
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "dark_pedestal",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:geometry": "geometry.dark_pedestal",
+			"minecraft:entity_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"minecraft:destroy_time": 5,
+			"minecraft:friction": 0.6,
+			"minecraft:block_light_absorption": 0.3
+		},
+		"events": {}
+	}
+}
