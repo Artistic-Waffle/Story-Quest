@@ -15,14 +15,14 @@
 			},
 			"minecraft:pick_collision": {
 				"origin": [
-					-1,
+					-8,
 					0,
-					-1
+					-8
 				],
 				"size": [
-					2,
-					2,
-					2
+					16,
+					16,
+					16
 				]
 			},
 			"minecraft:entity_collision": {
@@ -32,9 +32,9 @@
 					-8
 				],
 				"size": [
-					8,
 					16,
-					8
+					18,
+					16
 				]
 			},
 			"minecraft:creative_category": {

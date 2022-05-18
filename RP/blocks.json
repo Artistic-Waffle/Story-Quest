@@ -5,6 +5,7 @@
 		0
 	],
 	"sq:witch_cauldron": {
-		"sound": "stone"
+		"sound": "stone",
+		"textures": "sq_witch_cauldron"
 	}
 }
