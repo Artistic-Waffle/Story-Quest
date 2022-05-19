@@ -4,7 +4,7 @@
 	"minecraft:item": {
 		"description": {
 			"category": "items",
-			"identifier": "cc:lead_ingot"
+			"identifier": "sq:lead_ingot"
 		},
 		"components": {
 			"minecraft:icon": {

@@ -3,7 +3,7 @@
 	"format_version": "1.16.100",
 	"minecraft:block": {
 		"description": {
-			"identifier": "cc:liquid_tank"
+			"identifier": "sq:liquid_tank"
 		},
 		"components": {
 			"minecraft:material_instances": {

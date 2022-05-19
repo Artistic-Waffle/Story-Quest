@@ -3,7 +3,7 @@
 	"minecraft:item": {
 		"description": {
 			"category": "items",
-			"identifier": "cc:adamantite_ingot"
+			"identifier": "sq:adamantite_ingot"
 		},
 		"components": {
 			"minecraft:icon": {

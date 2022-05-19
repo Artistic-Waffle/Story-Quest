@@ -4,7 +4,7 @@
 	"minecraft:item": {
 		"description": {
 			"category": "items",
-			"identifier": "cc:brass_ingot"
+			"identifier": "sq:brass_ingot"
 		},
 		"components": {
 			"minecraft:icon": {

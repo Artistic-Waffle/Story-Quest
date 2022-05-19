@@ -4,7 +4,7 @@
 	"minecraft:item": {
 		"description": {
 			"category": "items",
-			"identifier": "cc:uranium_ingot"
+			"identifier": "sq:uranium_ingot"
 		},
 		"components": {
 			"minecraft:icon": {

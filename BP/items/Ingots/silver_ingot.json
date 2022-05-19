@@ -4,7 +4,7 @@
 	"minecraft:item": {
 		"description": {
 			"category": "items",
-			"identifier": "cc:silver_ingot"
+			"identifier": "sq:silver_ingot"
 		},
 		"components": {
 			"minecraft:icon": {

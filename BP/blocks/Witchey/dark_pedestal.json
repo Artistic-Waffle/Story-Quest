@@ -1,9 +1,8 @@
-//bridge-file-version: #1
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
 		"description": {
-			"identifier": "cc:dark_pedestal"
+			"identifier": "sq:dark_pedestal"
 		},
 		"components": {
 			"minecraft:material_instances": {
@@ -20,9 +19,9 @@
 					-8
 				],
 				"size": [
+					14,
 					16,
-					16,
-					16
+					14
 				]
 			},
 			"minecraft:pick_collision": {
@@ -32,9 +31,9 @@
 					-8
 				],
 				"size": [
+					14,
 					16,
-					16,
-					16
+					14
 				]
 			},
 			"minecraft:destroy_time": 5,

@@ -4,7 +4,7 @@
 	"minecraft:item": {
 		"description": {
 			"category": "items",
-			"identifier": "cc:electrum_ingot"
+			"identifier": "sq:electrum_ingot"
 		},
 		"components": {
 			"minecraft:icon": {

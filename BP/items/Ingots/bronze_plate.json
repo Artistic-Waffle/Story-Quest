@@ -1,9 +1,8 @@
-//bridge-file-version: #1
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
 		"description": {
-			"identifier": "cc:bronze_plate",
+			"identifier": "sq:bronze_plate",
 			"category": "items"
 		},
 		"components": {
@@ -15,6 +14,10 @@
 			"minecraft:hand_equipped": false,
 			"minecraft:display_name": {
 				"value": "Bronze Plate"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.plates",
+				"category": "items"
 			}
 		},
 		"events": {}

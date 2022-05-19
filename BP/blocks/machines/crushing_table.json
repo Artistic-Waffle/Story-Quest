@@ -1,9 +1,8 @@
-//bridge-file-version: #4
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
 		"description": {
-			"identifier": "cc:crushing_table"
+			"identifier": "sq:crushing_table"
 		},
 		"components": {
 			"minecraft:material_instances": {
@@ -39,7 +38,10 @@
 			},
 			"minecraft:destroy_time": 5,
 			"minecraft:friction": 0.6,
-			"minecraft:block_light_absorption": 0.3
+			"minecraft:block_light_absorption": 0.3,
+			"minecraft:creative_category": {
+				"category": "construction"
+			}
 		},
 		"events": {}
 	}
