@@ -1,0 +1,17 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "sq:block_alubrass"
+		},
+		"components": {
+			"minecraft:unit_cube": {},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "sq_block_alubrass",
+					"render_method": "opaque"
+				}
+			}
+		}
+	}
+}

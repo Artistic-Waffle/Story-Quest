@@ -115,14 +115,95 @@
 		"liquid_tank": {
 			"textures": "textures/blocks/machinery/liquid_tank"
 		},
-		"testing_block": {
-			"textures": "textures/blocks/testing_block"
-		},
 		"dark_pedestal": {
 			"textures": "textures/blocks/witchery/dark_pedestal"
 		},
 		"witch_cauldron": {
 			"textures": "textures/blocks/witchery/witch_cauldron"
+		},
+		"sq_craftingstation": {
+			"textures": "textures/blocks/tinkers/craftingstation"
+		},
+		"sq_grout": {
+			"textures": "textures/blocks/tinkers/grout"
+		},
+		"sq_lavawood": {
+			"textures": "textures/blocks/tinkers/lavawood"
+		},
+		"sq_seared_brick_cracked": {
+			"textures": "textures/blocks/tinkers/seared_brick_cracked"
+		},
+		"sq_seared_brick_fancy": {
+			"textures": "textures/blocks/tinkers/seared_brick_fancy"
+		},
+		"sq_seared_brick_small": {
+			"textures": "textures/blocks/tinkers/seared_brick_small"
+		},
+		"sq_seared_brick_square": {
+			"textures": "textures/blocks/tinkers/seared_brick_square"
+		},
+		"sq_seared_brick_triangle": {
+			"textures": "textures/blocks/tinkers/seared_brick_triangle"
+		},
+		"sq_seared_cobble": {
+			"textures": "textures/blocks/tinkers/seared_cobble"
+		},
+		"sq_seared_creeper": {
+			"textures": "textures/blocks/tinkers/seared_creeper"
+		},
+		"sq_seared_paver": {
+			"textures": "textures/blocks/tinkers/seared_paver"
+		},
+		"sq_seared_road": {
+			"textures": "textures/blocks/tinkers/seared_road"
+		},
+		"sq_seared_stone": {
+			"textures": "textures/blocks/tinkers/seared_stone"
+		},
+		"sq_seared_tile": {
+			"textures": "textures/blocks/tinkers/seared_tile"
+		},
+		"sq_toolstation": {
+			"textures": "textures/blocks/tinkers/toolstation"
+		},
+		"sq_partbuilder": {
+			"textures": "textures/blocks/tinkers/partbuilder"
+		},
+		"sq_stenciltable": {
+			"textures": "textures/blocks/tinkers/stenciltable"
+		},
+		"sq_block_alubrass": {
+			"textures": "textures/blocks/tinkers/block_alubrass"
+		},
+		"sq_block_ardite": {
+			"textures": "textures/blocks/tinkers/block_ardite"
+		},
+		"sq_block_manyullyn": {
+			"textures": "textures/blocks/tinkers/block_manyullyn"
+		},
+		"sq_seared_gauge": {
+			"textures": "textures/blocks/tinkers/seared_gauge"
+		},
+		"sq_seared_glass": {
+			"textures": "textures/blocks/tinkers/normal"
+		},
+		"sq_seared_tank": {
+			"textures": "textures/blocks/tinkers/seared_tank"
+		},
+		"sq_castingtable": {
+			"textures": "textures/blocks/tinkers/castingtable"
+		},
+		"sq_blockcast": {
+			"textures": "textures/blocks/tinkers/blockcast"
+		},
+		"sq_seared_furnace": {
+			"textures": "textures/blocks/tinkers/seared_furnace_inactive"
+		},
+		"sq_smeltery": {
+			"textures": "textures/blocks/tinkers/smeltery_inactive"
+		},
+		"sq_drain": {
+			"textures": "textures/blocks/tinkers/drain"
 		}
 	}
 }

@@ -136,11 +136,41 @@
 		"textures": "zinc_block",
 		"sound": "stone"
 	},
-	"sq:testing_block": {
-		"textures": "testing_block"
-	},
 	"sq:dark_pedestal": {
 		"textures": "dark_pedestal",
 		"sound": "anvil"
+	},
+	"sq:craftingstation": {
+		"sound": "stone"
+	},
+	"sq:toolstation": {
+		"sound": "stone"
+	},
+	"sq:partbuilder": {
+		"sound": "stone"
+	},
+	"sq:stenciltable": {
+		"sound": "stone"
+	},
+	"sq:seared_gauge": {
+		"sound": "stone"
+	},
+	"sq:seared_tank": {
+		"sound": "stone"
+	},
+	"sq:castingtable": {
+		"sound": "stone"
+	},
+	"sq:blockcast": {
+		"sound": "stone"
+	},
+	"sq:seared_furnace": {
+		"sound": "stone"
+	},
+	"sq:smeltery": {
+		"sound": "stone"
+	},
+	"sq:drain": {
+		"sound": "stone"
 	}
 }

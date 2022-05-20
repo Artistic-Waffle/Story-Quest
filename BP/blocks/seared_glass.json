@@ -1,0 +1,20 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "sq:seared_glass"
+		},
+		"components": {
+			"minecraft:unit_cube": {},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "sq_seared_glass",
+					"render_method": "blend"
+				}
+			},
+			"minecraft:creative_category": {
+				"category": "construction"
+			}
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "sq:seared_brick_small"
+		},
+		"components": {
+			"minecraft:unit_cube": {},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "sq_seared_brick_small",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:creative_category": {
+				"category": "construction"
+			}
+		}
+	}
+}

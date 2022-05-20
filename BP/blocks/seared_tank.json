@@ -1,0 +1,45 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "sq:seared_tank",
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:geometry": "geometry.seared_tank",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "sq_seared_tank",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"minecraft:entity_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"minecraft:creative_category": {
+				"category": "construction"
+			}
+		}
+	}
+}

@@ -2,15 +2,18 @@
 	"format_version": "1.16.100",
 	"minecraft:block": {
 		"description": {
-			"identifier": "bridge:seared_brick_cracked"
+			"identifier": "sq:seared_brick_cracked"
 		},
 		"components": {
 			"minecraft:unit_cube": {},
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "bridge_seared_brick_cracked",
+					"texture": "sq_seared_brick_cracked",
 					"render_method": "opaque"
 				}
+			},
+			"minecraft:creative_category": {
+				"category": "construction"
 			}
 		}
 	}

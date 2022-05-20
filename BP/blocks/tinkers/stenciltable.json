@@ -1,0 +1,45 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "sq:stenciltable",
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:geometry": "geometry.stenciltable",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "sq_stenciltable",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:creative_category": {
+				"category": "equipment"
+			},
+			"minecraft:entity_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			}
+		}
+	}
+}

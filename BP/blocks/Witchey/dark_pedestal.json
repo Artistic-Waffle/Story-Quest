@@ -38,7 +38,10 @@
 			},
 			"minecraft:destroy_time": 5,
 			"minecraft:friction": 0.6,
-			"minecraft:block_light_absorption": 0.3
+			"minecraft:block_light_absorption": 0.3,
+			"minecraft:creative_category": {
+				"category": "construction"
+			}
 		},
 		"events": {}
 	}
