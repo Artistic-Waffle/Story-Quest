@@ -204,6 +204,57 @@
 		},
 		"sq_drain": {
 			"textures": "textures/blocks/tinkers/drain"
+		},
+		"nothing": {
+			"textures": "textures/blocks/nothing"
+		},
+		"top": {
+			"textures": "textures/blocks/top"
+		},
+		"u": {
+			"textures": "textures/blocks/u"
+		},
+		"ud": {
+			"textures": "textures/blocks/ud"
+		},
+		"udlr": {
+			"textures": "textures/blocks/udlr"
+		},
+		"normal": {
+			"textures": "textures/blocks/normal"
+		},
+		"tr": {
+			"textures": "textures/blocks/tr"
+		},
+		"tl": {
+			"textures": "textures/blocks/tl"
+		},
+		"ul": {
+			"textures": "textures/blocks/ul"
+		},
+		"ulr": {
+			"textures": "textures/blocks/ulr"
+		},
+		"udr": {
+			"textures": "textures/blocks/udr"
+		},
+		"udl": {
+			"textures": "textures/blocks/udl"
+		},
+		"lr": {
+			"textures": "textures/blocks/lr"
+		},
+		"r": {
+			"textures": "textures/blocks/r"
+		},
+		"ur": {
+			"textures": "textures/blocks/ur"
+		},
+		"l": {
+			"textures": "textures/blocks/l"
+		},
+		"tlr": {
+			"textures": "textures/blocks/tlr"
 		}
 	}
 }

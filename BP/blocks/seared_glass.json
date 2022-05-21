@@ -2,18 +2,741 @@
 	"format_version": "1.16.100",
 	"minecraft:block": {
 		"description": {
-			"identifier": "sq:seared_glass"
+			"identifier": "sq:seared_glass",
+			"properties": {
+				"sq:connected_state": [
+					0,
+					1,
+					2,
+					3,
+					4
+				],
+				"sq:north": [
+					0,
+					1
+				],
+				"sq:south": [
+					0,
+					1
+				],
+				"sq:east": [
+					0,
+					1
+				],
+				"sq:west": [
+					0,
+					1
+				]
+			}
 		},
 		"components": {
+			"tag:glass": {},
+			"tag:normal": {},
 			"minecraft:unit_cube": {},
-			"minecraft:material_instances": {
-				"*": {
-					"texture": "sq_seared_glass",
-					"render_method": "blend"
-				}
-			},
+			"minecraft:destroy_time": 1,
 			"minecraft:creative_category": {
 				"category": "construction"
+			},
+			"minecraft:ticking": {
+				"looping": true,
+				"on_tick": {
+					"event": "change_state"
+				},
+				"range": [
+					0,
+					0
+				]
+			}
+		},
+		"permutations": [
+			{
+				"condition": "q.block_property('sq:connected_state') == 0 && q.block_property('sq:north') == 0 && q.block_property('sq:south') == 0 && q.block_property('sq:east') == 0 && q.block_property('sq:west') == 0",
+				"components": {
+					"tag:default:": {},
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "blend",
+							"texture": "normal"
+						},
+						"up": {
+							"render_method": "blend",
+							"texture": "normal"
+						},
+						"down": {
+							"render_method": "blend",
+							"texture": "normal"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_property('sq:connected_state') == 1 && q.block_property('sq:north') == 0 && q.block_property('sq:south') == 0 && q.block_property('sq:east') == 0 && q.block_property('sq:west') == 0",
+				"components": {
+					"tag:top": {},
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "blend",
+							"texture": "top"
+						},
+						"up": {
+							"render_method": "blend",
+							"texture": "normal"
+						},
+						"down": {
+							"render_method": "blend",
+							"texture": "udlr"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_property('sq:connected_state') == 2 && q.block_property('sq:north') == 0 && q.block_property('sq:south') == 0 && q.block_property('sq:east') == 0 && q.block_property('sq:west') == 0",
+				"components": {
+					"tag:bottom": {},
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "blend",
+							"texture": "u"
+						},
+						"up": {
+							"render_method": "blend",
+							"texture": "udlr"
+						},
+						"down": {
+							"render_method": "blend",
+							"texture": "normal"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_property('sq:connected_state') == 3 && q.block_property('sq:north') == 0 && q.block_property('sq:south') == 0 && q.block_property('sq:east') == 0 && q.block_property('sq:west') == 0",
+				"components": {
+					"tag:middle": {},
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "blend",
+							"texture": "ud"
+						},
+						"up": {
+							"render_method": "blend",
+							"texture": "udlr"
+						},
+						"down": {
+							"render_method": "blend",
+							"texture": "udlr"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_property('sq:north') == 1 && q.block_property('sq:connected_state') == 0",
+				"components": {
+					"tag:default": {},
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "blend",
+							"texture": "normal"
+						},
+						"north": {
+							"render_method": "blend",
+							"texture": "udlr"
+						},
+						"up": {
+							"render_method": "blend",
+							"texture": "normal"
+						},
+						"down": {
+							"render_method": "blend",
+							"texture": "normal"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_property('sq:south') == 1 && q.block_property('sq:connected_state') == 0",
+				"components": {
+					"tag:default": {},
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "blend",
+							"texture": "normal"
+						},
+						"south": {
+							"render_method": "blend",
+							"texture": "udlr"
+						},
+						"up": {
+							"render_method": "blend",
+							"texture": "normal"
+						},
+						"down": {
+							"render_method": "blend",
+							"texture": "normal"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_property('sq:east') == 1 && q.block_property('sq:connected_state') == 0",
+				"components": {
+					"tag:default": {},
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "blend",
+							"texture": "normal"
+						},
+						"east": {
+							"render_method": "blend",
+							"texture": "udlr"
+						},
+						"up": {
+							"render_method": "blend",
+							"texture": "normal"
+						},
+						"down": {
+							"render_method": "blend",
+							"texture": "normal"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_property('sq:west') == 1 && q.block_property('sq:connected_state') == 0",
+				"components": {
+					"tag:default": {},
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "blend",
+							"texture": "normal"
+						},
+						"west": {
+							"render_method": "blend",
+							"texture": "udlr"
+						},
+						"up": {
+							"render_method": "blend",
+							"texture": "normal"
+						},
+						"down": {
+							"render_method": "blend",
+							"texture": "normal"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_property('sq:north') == 1 && q.block_property('sq:connected_state') == 1",
+				"components": {
+					"tag:top": {},
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "blend",
+							"texture": "top"
+						},
+						"north": {
+							"render_method": "blend",
+							"texture": "udlr"
+						},
+						"up": {
+							"render_method": "blend",
+							"texture": "u"
+						},
+						"down": {
+							"render_method": "blend",
+							"texture": "udlr"
+						},
+						"east": {
+							"render_method": "blend",
+							"texture": "tr"
+						},
+						"west": {
+							"render_method": "blend",
+							"texture": "tl"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_property('sq:south') == 1 && q.block_property('sq:connected_state') == 1",
+				"components": {
+					"tag:top": {},
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "blend",
+							"texture": "top"
+						},
+						"south": {
+							"render_method": "blend",
+							"texture": "udlr"
+						},
+						"up": {
+							"render_method": "blend",
+							"texture": "top"
+						},
+						"down": {
+							"render_method": "blend",
+							"texture": "udlr"
+						},
+						"east": {
+							"render_method": "blend",
+							"texture": "tl"
+						},
+						"west": {
+							"render_method": "blend",
+							"texture": "tr"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_property('sq:east') == 1 && q.block_property('sq:connected_state') == 1",
+				"components": {
+					"tag:top": {},
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "blend",
+							"texture": "top"
+						},
+						"east": {
+							"render_method": "blend",
+							"texture": "udlr"
+						},
+						"up": {
+							"render_method": "blend",
+							"texture": "r"
+						},
+						"down": {
+							"render_method": "blend",
+							"texture": "udlr"
+						},
+						"north": {
+							"render_method": "blend",
+							"texture": "tl"
+						},
+						"south": {
+							"render_method": "blend",
+							"texture": "tr"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_property('sq:west') == 1 && q.block_property('sq:connected_state') == 1",
+				"components": {
+					"tag:top": {},
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "blend",
+							"texture": "top"
+						},
+						"west": {
+							"render_method": "blend",
+							"texture": "udlr"
+						},
+						"up": {
+							"render_method": "blend",
+							"texture": "l"
+						},
+						"down": {
+							"render_method": "blend",
+							"texture": "udlr"
+						},
+						"north": {
+							"render_method": "blend",
+							"texture": "tr"
+						},
+						"south": {
+							"render_method": "blend",
+							"texture": "tl"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_property('sq:north') == 1 && q.block_property('sq:south') == 1 && q.block_property('sq:connected_state') == 1",
+				"components": {
+					"tag:top": {},
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "blend",
+							"texture": "top"
+						},
+						"east": {
+							"render_method": "blend",
+							"texture": "lr"
+						},
+						"west": {
+							"render_method": "blend",
+							"texture": "lr"
+						},
+						"up": {
+							"render_method": "blend",
+							"texture": "ud"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_property('sq:east') == 1 && q.block_property('sq:west') == 1 && q.block_property('sq:connected_state') == 1",
+				"components": {
+					"tag:top": {},
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "blend",
+							"texture": "top"
+						},
+						"north": {
+							"render_method": "blend",
+							"texture": "lr"
+						},
+						"south": {
+							"render_method": "blend",
+							"texture": "lr"
+						},
+						"up": {
+							"render_method": "blend",
+							"texture": "lr"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_property('sq:east') == 1 && q.block_property('sq:north') == 1 && q.block_property('sq:connected_state') == 1",
+				"components": {
+					"tag:top": {},
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "blend",
+							"texture": "udlr"
+						},
+						"up": {
+							"render_method": "blend",
+							"texture": "ur"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_property('sq:west') == 1 && q.block_property('sq:south') == 1 && q.block_property('sq:connected_state') == 1",
+				"components": {
+					"tag:top": {},
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "blend",
+							"texture": "udlr"
+						},
+						"up": {
+							"render_method": "blend",
+							"texture": "tl"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_property('sq:north') == 1 && q.block_property('sq:connected_state') == 2",
+				"components": {
+					"tag:bottom": {},
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "blend",
+							"texture": "u"
+						},
+						"north": {
+							"render_method": "blend",
+							"texture": "udlr"
+						},
+						"up": {
+							"render_method": "blend",
+							"texture": "udlr"
+						},
+						"down": {
+							"render_method": "blend",
+							"texture": "u"
+						},
+						"west": {
+							"render_method": "blend",
+							"texture": "ul"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_property('sq:south') == 1 && q.block_property('sq:connected_state') == 2",
+				"components": {
+					"tag:bottom": {},
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "blend",
+							"texture": "u"
+						},
+						"south": {
+							"render_method": "blend",
+							"texture": "udlr"
+						},
+						"up": {
+							"render_method": "blend",
+							"texture": "udlr"
+						},
+						"down": {
+							"render_method": "blend",
+							"texture": "u"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_property('sq:east') == 1 && q.block_property('sq:connected_state') == 2",
+				"components": {
+					"tag:bootom": {},
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "blend",
+							"texture": "u"
+						},
+						"east": {
+							"render_method": "blend",
+							"texture": "udlr"
+						},
+						"up": {
+							"render_method": "blend",
+							"texture": "udlr"
+						},
+						"down": {
+							"render_method": "blend",
+							"texture": "u"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_property('sq:west') == 1 && q.block_property('sq:connected_state') == 2",
+				"components": {
+					"tag:bottom": {},
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "blend",
+							"texture": "u"
+						},
+						"west": {
+							"render_method": "blend",
+							"texture": "udlr"
+						},
+						"up": {
+							"render_method": "blend",
+							"texture": "udlr"
+						},
+						"down": {
+							"render_method": "blend",
+							"texture": "u"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_property('sq:north') == 1 && q.block_property('sq:connected_state') == 3",
+				"components": {
+					"tag:middle": {},
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "blend",
+							"texture": "ud"
+						},
+						"north": {
+							"render_method": "blend",
+							"texture": "udlr"
+						},
+						"up": {
+							"render_method": "blend",
+							"texture": "udlr"
+						},
+						"down": {
+							"render_method": "blend",
+							"texture": "udlr"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_property('sq:south') == 1 && q.block_property('sq:connected_state') == 3",
+				"components": {
+					"tag:middle": {},
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "blend",
+							"texture": "ud"
+						},
+						"south": {
+							"render_method": "blend",
+							"texture": "udlr"
+						},
+						"up": {
+							"render_method": "blend",
+							"texture": "udlr"
+						},
+						"down": {
+							"render_method": "blend",
+							"texture": "udlr"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_property('sq:east') == 1 && q.block_property('sq:connected_state') == 3",
+				"components": {
+					"tag:middle": {},
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "blend",
+							"texture": "ud"
+						},
+						"east": {
+							"render_method": "blend",
+							"texture": "udlr"
+						},
+						"up": {
+							"render_method": "blend",
+							"texture": "udlr"
+						},
+						"down": {
+							"render_method": "blend",
+							"texture": "udlr"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_property('sq:west') == 1 && q.block_property('sq:connected_state') == 3",
+				"components": {
+					"tag:middle": {},
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "blend",
+							"texture": "ud"
+						},
+						"west": {
+							"render_method": "blend",
+							"texture": "udlr"
+						},
+						"up": {
+							"render_method": "blend",
+							"texture": "udlr"
+						},
+						"down": {
+							"render_method": "blend",
+							"texture": "udlr"
+						}
+					}
+				}
+			}
+		],
+		"events": {
+			"change_state": {
+				"sequence": [
+					{
+						"condition": "q.block_neighbor_has_any_tag(0,0,-1,'normal')",
+						"set_block_property": {
+							"sq:north": 1
+						}
+					},
+					{
+						"condition": "q.block_neighbor_has_any_tag(0,0,1,'normal')",
+						"set_block_property": {
+							"sq:south": 1
+						}
+					},
+					{
+						"condition": "q.block_neighbor_has_any_tag(-1,0,0,'normal')",
+						"set_block_property": {
+							"sq:west": 1
+						}
+					},
+					{
+						"condition": "q.block_neighbor_has_any_tag(1,0,0,'normal')",
+						"set_block_property": {
+							"sq:east": 1
+						}
+					},
+					{
+						"condition": "!q.block_neighbor_has_any_tag(0,0,-1,'normal')",
+						"set_block_property": {
+							"sq:north": 0
+						}
+					},
+					{
+						"condition": "!q.block_neighbor_has_any_tag(0,0,1,'normal')",
+						"set_block_property": {
+							"sq:south": 0
+						}
+					},
+					{
+						"condition": "!q.block_neighbor_has_any_tag(-1,0,0,'normal')",
+						"set_block_property": {
+							"sq:west": 0
+						}
+					},
+					{
+						"condition": "!q.block_neighbor_has_any_tag(1,0,0,'normal')",
+						"set_block_property": {
+							"sq:east": 0
+						}
+					},
+					//these control the custom texture state
+					{
+						"condition": "q.block_neighbor_has_any_tag(0,-1,0,'default')",
+						"set_block_property": {
+							"sq:connected_state": 1
+						}
+					},
+					{
+						"condition": "q.block_neighbor_has_any_tag(0,1,0,'top') && !q.block_neighbor_has_any_tag(0,-1,0,'middle')",
+						"set_block_property": {
+							"sq:connected_state": 2
+						}
+					},
+					{
+						"condition": "q.block_neighbor_has_any_tag(0,1,0,'top') && q.block_neighbor_has_any_tag(0,-1,0,'middle')",
+						"set_block_property": {
+							"sq:connected_state": 3
+						}
+					},
+					{
+						"condition": "q.block_neighbor_has_any_tag(0,-1,0,'top')",
+						"set_block_property": {
+							"sq:connected_state": 1
+						}
+					},
+					{
+						"condition": "q.block_neighbor_has_any_tag(0,-1,0,'bottom') && (q.block_neighbor_has_any_tag(0,1,0,'top') || q.block_neighbor_has_any_tag(0,1,0,'middle'))",
+						"set_block_property": {
+							"sq:connected_state": 3
+						}
+					},
+					{
+						"condition": "!q.block_neighbor_has_any_tag(0,1,0,'top', 'default', 'middle', 'bottom') && q.block_neighbor_has_any_tag(0,-1,0,'middle', 'bottom')",
+						"set_block_property": {
+							"sq:connected_state": 1
+						}
+					},
+					{
+						"condition": "!q.block_neighbor_has_any_tag(0,1,0,'top', 'default', 'middle', 'bottom') && !q.block_neighbor_has_any_tag(0,-1,0,'middle', 'bottom', 'top', 'default')",
+						"set_block_property": {
+							"sq:connected_state": 0
+						}
+					},
+					{
+						"condition": "q.block_neighbor_has_any_tag(0,1,0,'top', 'middle', 'bottom') && !q.block_neighbor_has_any_tag(0,-1,0,'middle', 'bottom', 'top', 'default')",
+						"set_block_property": {
+							"sq:connected_state": 2
+						}
+					},
+					{
+						"condition": "q.block_neighbor_has_any_tag(0,1,0,'default') && q.block_neighbor_has_any_tag(0,-1,0,'default')",
+						"set_block_property": {
+							"sq:connected_state": 3
+						}
+					}
+				]
 			}
 		}
 	}

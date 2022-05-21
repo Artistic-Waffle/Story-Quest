@@ -172,5 +172,20 @@
 	},
 	"sq:drain": {
 		"sound": "stone"
+	},
+	"top": {
+		"textures": "top"
+	},
+	"u": {
+		"textures": "u"
+	},
+	"ud": {
+		"textures": "ud"
+	},
+	"udlr": {
+		"textures": "udlr"
+	},
+	"normal": {
+		"textures": "normal"
 	}
 }
