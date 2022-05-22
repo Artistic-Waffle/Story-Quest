@@ -84,3 +84,4 @@ tile.sq:blockcast.name=Block Cast
 tile.sq:seared_furnace.name=Seared Furnace
 tile.sq:smeltery.name=Smeltery
 tile.sq:drain.name=Drain
+tile.sq:testing_block.name=Testing Block

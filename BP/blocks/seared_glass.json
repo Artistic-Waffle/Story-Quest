@@ -656,7 +656,7 @@
 						},
 						"north": {
 							"render_method": "blend",
-							"texture": "ur"
+							"texture": "ul"
 						},
 						"south": {
 							"render_method": "blend",
@@ -1246,8 +1246,9 @@
 					}
 				}
 			},
+			//changes east block second
 			{
-				"condition": "q.block_property('sq:south') == 1 && q.block_property('sq:north') == 1 && q.block_property('sq:connected_state') == 0",
+				"condition": "q.block_property('sq:east') == 1 && q.block_property('sq:connected_state') == 0",
 				"components": {
 					"tag:bottom": {},
 					"minecraft:material_instances": {
@@ -1257,23 +1258,88 @@
 						},
 						"south": {
 							"render_method": "blend",
-							"texture": "udlr"
+							"texture": "r"
 						},
 						"up": {
 							"render_method": "blend",
-							"texture": "udlr"
+							"texture": "r"
 						},
 						"down": {
 							"render_method": "blend",
-							"texture": "ud"
+							"texture": "l"
 						},
-						"west": {
+						"north": {
 							"render_method": "blend",
-							"texture": "lr"
+							"texture": "l"
 						},
 						"east": {
 							"render_method": "blend",
-							"texture": "lr"
+							"texture": "udlr"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_property('sq:north') == 1 && q.block_property('sq:connected_state') == 0",
+				"components": {
+					"tag:bottom": {},
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "blend",
+							"texture": "normal"
+						},
+						"south": {
+							"render_method": "blend",
+							"texture": "normal"
+						},
+						"up": {
+							"render_method": "blend",
+							"texture": "u"
+						},
+						"down": {
+							"render_method": "blend",
+							"texture": "u"
+						},
+						"north": {
+							"render_method": "blend",
+							"texture": "udlr"
+						},
+						"east": {
+							"render_method": "blend",
+							"texture": "r"
+						}
+					}
+				}
+			},
+			//change east soon
+			{
+				"condition": "q.block_property('sq:west') == 1 && q.block_property('sq:connected_state') == 0",
+				"components": {
+					"tag:bottom": {},
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "blend",
+							"texture": "udlr"
+						},
+						"south": {
+							"render_method": "blend",
+							"texture": "l"
+						},
+						"up": {
+							"render_method": "blend",
+							"texture": "l"
+						},
+						"down": {
+							"render_method": "blend",
+							"texture": "r"
+						},
+						"north": {
+							"render_method": "blend",
+							"texture": "r"
+						},
+						"east": {
+							"render_method": "blend",
+							"texture": "normal"
 						}
 					}
 				}

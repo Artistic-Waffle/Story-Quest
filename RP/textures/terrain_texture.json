@@ -255,6 +255,9 @@
 		},
 		"tlr": {
 			"textures": "textures/blocks/tlr"
+		},
+		"sq_testing_block": {
+			"textures": "textures/blocks/testing_block"
 		}
 	}
 }
